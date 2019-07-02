@@ -8,16 +8,16 @@ Here, we have given n numbers of nodes N which reperesnts the possible sites for
 1. cost of construction should be minimum
 2. drivers can easily recharge their vehicle and move throughout the city
 So, we need to minimize the total cost i.e.
- minimize C=Σc i . x i       i=1,........n
+ minimize C=Σc i . x i,       i=1,........n                                       (1)
  subject to:
-            Σ(fj x j )≥ F i , ∀i,j∈ N i αD                                        (1)
-            x i = {0, 1}, ∀i                                                      (2)
-            x 0 i + y i 0i = n, ∀i ∈ N̂                                            (3)
-            0 ≤ y ijk ≤ nx i x k , ∀(j, k) ∈ Ê ∪ (0 i , i), ∀i ∈ N̂                (4)
-            j|(j,k)∈ Ê Σy ijk = x i x k +Σy ikl , l|(k,l)∈ Ê, ∀i, k ∈ N̂           (5)
-            j∈ N̂ Σx j =y i 0i , ∀i∈ N̂                                             (6)
-            0 ≤ x 0 i , ∀i ∈ N̂                                                    (7)
-            x i = 1.                                                              (8)
+            Σ(fj x j )≥ F i , ∀i,j∈ N i αD                                        (2)
+            x i = {0, 1}, ∀i                                                      (3)
+            x 0 i + y i 0i = n, ∀i ∈ N̂                                            (4)
+            0 ≤ y ijk ≤ nx i x k , ∀(j, k) ∈ Ê ∪ (0 i , i), ∀i ∈ N̂                (5)
+            j|(j,k)∈ Ê Σy ijk = x i x k +Σy ikl , l|(k,l)∈ Ê, ∀i, k ∈ N̂           (6)
+            j∈ N̂ Σx j =y i 0i , ∀i∈ N̂                                             (7)
+            0 ≤ x 0 i , ∀i ∈ N̂                                                    (8)
+            x i = 1.                                                              (9)
 
 where,
 N-Set of potential charging station construction sites.
