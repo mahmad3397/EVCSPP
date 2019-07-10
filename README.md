@@ -1,7 +1,7 @@
 # EVCSPP
 This is a paper implementation of IEEE TRANSACTIONS ON SMART GRID, VOL. 5, NO. 6, NOVEMBER 2014 on Electric Vehicle Charging Station Placement: Formulation, Complexity, and Solutions published by Albert Y.S. Lam, Member, IEEE, Yiu-Wing Leung, Senior Member, IEEE, and Xiaowen Chu, Senior Member, IEEE.
 
-This is done using Cplex Optimizer in Python API.
+This is done using Cplex Optimizer in Python API as well as using Greedy Algorithm.
 
 Problem Explanation:
 Here, we have given n numbers of nodes N which reperesnts the possible sites for constructing the charging station. We need to find a subset of N such that:
