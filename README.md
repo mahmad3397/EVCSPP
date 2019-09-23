@@ -4,7 +4,7 @@ This is a paper implementation of IEEE TRANSACTIONS ON SMART GRID, VOL. 5, NO. 6
 This is done using Cplex Optimizer in Python API as well as using Greedy Algorithm.
 
 Problem Explanation:
-Here, we have given n numbers of nodes N which reperesnts the possible sites for constructing the charging station. We need to find a subset of N such that:
+Here, n numbers of nodes(N) are given which denote the possible sites for constructing the charging station.s We need to find a subset of N such that:
 1. cost of construction should be minimum
 2. drivers can easily recharge their vehicle and move throughout the city
 So, we need to minimize the total cost i.e.
