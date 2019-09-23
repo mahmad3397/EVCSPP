@@ -9,6 +9,7 @@ Here, n numbers of nodes(N) are given which denote the possible sites for constr
 2. drivers can easily recharge their vehicle and move throughout the city
 So, we need to minimize the total cost i.e.
  minimize C=Σc i . x i,       i=1,........n                                       (1)
+ 
  subject to:
  
             Σ(fj x j )≥ F i , ∀i,j∈ N i αD                                        (2)
