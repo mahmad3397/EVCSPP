@@ -11,6 +11,7 @@ So, we need to minimize the total cost i.e.
  minimize C=Σc i . x i,       i=1,........n                                       (1)
  
  such that:
+ 
             Σ(fj x j )≥ F i , ∀i,j∈ N i αD                                        (2)
             x i = {0, 1}, ∀i                                                      (3)
             x 0 i + y i 0i = n, ∀i ∈ N̂                                            (4)
